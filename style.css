@@ -1,0 +1,38 @@
+#container {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+  }
+  
+  /* Устанавливаем положение и внешний вид шара */
+  #ball {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: red;
+  }
+
+  #ball1 {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:blue;
+  }
+  .butt{
+padding: 5%;
+    width: 35%;
+    margin: 10%;
+  }
+
+  .myclass{
+display: flex;
+justify-content: center;
+width: 80%;
+  }
